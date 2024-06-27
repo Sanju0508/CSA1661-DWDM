@@ -1,0 +1,22 @@
+@relation transactions
+
+@attribute Bread {T,F}
+@attribute Peanuts {T,F}
+@attribute Milk {T,F}
+@attribute Fruit {T,F}
+@attribute Jam {T,F}
+@attribute Soda {T,F}
+@attribute Chips {T,F}
+@attribute Steak {T,F}
+@attribute Cheese {T,F}
+@attribute Yogurt {T,F}
+
+@data
+{0 T, 1 T, 2 T, 3 T, 4 T}
+{0 T, 2 T, 3 T, 4 T, 5 T, 6 T}
+{0 T, 4 T, 5 T, 6 T, 7 T}
+{1 T, 2 T, 3 T, 4 T, 5 T}
+{0 T, 2 T, 4 T, 5 T, 6 T}
+{2 T, 3 T, 5 T, 6 T}
+{1 T, 2 T, 3 T, 5 T}
+{1 T, 3 T, 8 T, 9 T}

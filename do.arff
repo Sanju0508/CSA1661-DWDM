@@ -1,0 +1,20 @@
+@relation transaction
+
+@attribute M {T,F}
+@attribute O {T,F}
+@attribute N {T,F}
+@attribute K {T,F}
+@attribute E {T,F}
+@attribute Y {T,F}
+@attribute D {T,F}
+@attribute A {T,F}
+@attribute U {T,F}
+@attribute C {T,F}
+@attribute I {T,F}
+
+@data
+{0 T,1 T,3 T,4 T,5 T}
+{1 T,,3 T,4 T,5 T,6 T}
+{0 T,3 T,4 T,7 T}
+{0 T,3 T,6 T,8 T,9 T}
+{1 T,3 T,4 T,9 T,10 T}

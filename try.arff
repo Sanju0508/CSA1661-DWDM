@@ -1,0 +1,16 @@
+@relation transactions
+
+@attribute Bread {T,F}
+@attribute Cheese {T,F}
+@attribute Egg {T,F}
+@attribute Juice {T,F}
+@attribute Milk {T,F}
+@attribute Yogurt {T,F}
+
+@data
+
+{0 T,1 T,2 T,3 T}
+{0 T,1 T,3 T}
+{0 T,4 T,5 T}
+{0 T,3 T,4 T}
+{1 T,3 T,4 T}
